@@ -19,7 +19,6 @@ public class MainActivity extends AppCompatActivity {
         View view = activityMainBinding.getRoot();
         setContentView(view);
 
-        activityMainBinding.editText.getBackground().setColorFilter(Color.BLUE, PorterDuff.Mode.SRC_ATOP);
-        activityMainBinding.editText3.getBackground().setColorFilter(Color.GREEN, PorterDuff.Mode.SRC_ATOP);
+        activityMainBinding.editText2.getBackground().setColorFilter(Color.BLUE, PorterDuff.Mode.SRC_ATOP);
     }
 }
